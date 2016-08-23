@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D2F00B3F227FC6D5DAFAAEB209D7A74 /* Pods-Messages-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C757CF49D30BCA8DBEDB151AE0D1A09E /* Pods-Messages-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D175D67D248A9B5D42300482689A7CF2 /* Pods-Messages-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5CEBE016FF24B3575A41AE22786014 /* Pods-Messages-iOS-dummy.m */; };
+		F03F2FF2DD3764E96DE30BB37B050903 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0808EDDE3182A4C8A95A27915BA0BADB /* KCSClient2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSClient2.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSClient2.h"; sourceTree = "<group>"; };
+		0C04FD6D10A6C320A626346158A70E0A /* KCSOfflineUpdateDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSOfflineUpdateDelegate.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSOfflineUpdateDelegate.h"; sourceTree = "<group>"; };
+		12B6E79AA68D1A4A500FD3488E0D63CF /* KCSClient+KinveyDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KCSClient+KinveyDataStore.h"; path = "KinveyKit-1.40.9/include/KinveyKit/KCSClient+KinveyDataStore.h"; sourceTree = "<group>"; };
+		13BD1047A33662174F8B973E01D46949 /* KinveyCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyCore.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyCore.h"; sourceTree = "<group>"; };
+		1966195277F1F0DAE98C05D184F5A105 /* KCSBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSBase64.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSBase64.h"; sourceTree = "<group>"; };
+		1ADBDB1C327F77578235682023785A9D /* NSString+KinveyAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KinveyAdditions.h"; path = "KinveyKit-1.40.9/include/KinveyKit/NSString+KinveyAdditions.h"; sourceTree = "<group>"; };
+		1B214CE748D5C85BDB39CA5B0092F7E3 /* KCSClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSClient.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSClient.h"; sourceTree = "<group>"; };
+		1C2AF902EDC61FCF24146F492D045C43 /* KinveyUserService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyUserService.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyUserService.h"; sourceTree = "<group>"; };
+		1E178A7CBD3DF66F54D2D7B22701670D /* KinveyBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyBlocks.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyBlocks.h"; sourceTree = "<group>"; };
+		20D42787356BA97908C7F10BF068E292 /* KCSQuery2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSQuery2.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSQuery2.h"; sourceTree = "<group>"; };
+		22B108666082267F8A6F3BF11E36E2F3 /* KCSURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSURLProtocol.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSURLProtocol.h"; sourceTree = "<group>"; };
+		2317674B5155B4C2FA64C35CFB16D43A /* KCSPush2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSPush2.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSPush2.h"; sourceTree = "<group>"; };
+		24181E205026EAD01FB072C31AC2B46C /* KinveyErrorCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyErrorCodes.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyErrorCodes.h"; sourceTree = "<group>"; };
+		2C8528098A71FB3EEF302958BE81CC8B /* KCSLogSink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSLogSink.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSLogSink.h"; sourceTree = "<group>"; };
+		378079F5AFC42AEA2EF12C1B021F8CBD /* KinveyCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyCollection.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyCollection.h"; sourceTree = "<group>"; };
+		3C6D6BAA726E247B8261F2EF81277668 /* KinveyKit2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyKit2.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyKit2.h"; sourceTree = "<group>"; };
+		4074633B95B7189E7D64BD23A4345D4B /* KCSFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSFile.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSFile.h"; sourceTree = "<group>"; };
+		43BFC0A6D418D10F463D968F87198CF2 /* Pods-Messages-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Messages-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44A236AF88DF0D721FC713DD4A494BC3 /* KCSReduceFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSReduceFunction.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSReduceFunction.h"; sourceTree = "<group>"; };
+		474FD215C869370CFAFD0CCE00EB86B4 /* KCSCacheUpdatePolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSCacheUpdatePolicy.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSCacheUpdatePolicy.h"; sourceTree = "<group>"; };
+		4803E8A3EC481ABC0387777D11BC9E16 /* KCSReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSReachability.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSReachability.h"; sourceTree = "<group>"; };
+		4FF1174A53BB14E746A8755B37849FB6 /* KinveyHeaderInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyHeaderInfo.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyHeaderInfo.h"; sourceTree = "<group>"; };
+		50619B3682FD4559B04F7153D1AECC20 /* KinveyEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyEntity.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyEntity.h"; sourceTree = "<group>"; };
+		529F3800DEC5EA9499498107A01A4662 /* KCSPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSPush.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSPush.h"; sourceTree = "<group>"; };
+		57EFB496BA6F9754587D763AC6619363 /* Pods-Messages-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Messages-iOS.modulemap"; sourceTree = "<group>"; };
+		58D673BC1E71C38CDFA6FEDEC42C5EEA /* Pods-Messages-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Messages-iOS-resources.sh"; sourceTree = "<group>"; };
+		5928B536365DDC37BA1415DCC93E12BC /* KCSFacebookHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSFacebookHelper.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSFacebookHelper.h"; sourceTree = "<group>"; };
+		5B4A4AA001573B125439823177C07034 /* NSURL+KinveyAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+KinveyAdditions.h"; path = "KinveyKit-1.40.9/include/KinveyKit/NSURL+KinveyAdditions.h"; sourceTree = "<group>"; };
+		63699BB2A639112EEE2996BD193CBB3F /* KCSWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSWebView.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSWebView.h"; sourceTree = "<group>"; };
+		6372D7A684D075A9FFA855D27FDED703 /* KinveyUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyUser.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyUser.h"; sourceTree = "<group>"; };
+		65A35B2F0F3FCFC8152E7B195B000E10 /* KCSGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSGroup.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSGroup.h"; sourceTree = "<group>"; };
+		670505AE2556F0953FDF1FB214852149 /* Pods_Messages_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Messages_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E37E407A83C47AEA144A106DEE8DD5 /* KCSQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSQuery.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSQuery.h"; sourceTree = "<group>"; };
+		6B568F5821669777A18798A46E77EB12 /* KCSUserActionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSUserActionResult.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSUserActionResult.h"; sourceTree = "<group>"; };
+		6DB0E758934895A08DC8B3B855286EE6 /* KinveyPersistable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyPersistable.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyPersistable.h"; sourceTree = "<group>"; };
+		736D4A83D5AAFCB8B73A7719137F5236 /* KCSBlockDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSBlockDefs.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSBlockDefs.h"; sourceTree = "<group>"; };
+		7C7C5164BA9B5E790FF7F8219A98027B /* KCSRequestConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSRequestConfiguration.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSRequestConfiguration.h"; sourceTree = "<group>"; };
+		7E015C571AEAEACC1574A8F5E4B22127 /* KCSUser2+KinveyUserService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KCSUser2+KinveyUserService.h"; path = "KinveyKit-1.40.9/include/KinveyKit/KCSUser2+KinveyUserService.h"; sourceTree = "<group>"; };
+		7F2B15F30C20B93D3ABEB04C13473CAF /* KCSUser2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSUser2.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSUser2.h"; sourceTree = "<group>"; };
+		899128D89FA40C088D166DEC6F46A57E /* KCSBackgroundAppdataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSBackgroundAppdataStore.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSBackgroundAppdataStore.h"; sourceTree = "<group>"; };
+		8FBE28C60D596BA38808F0E1A32D64AD /* Pods-Messages-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Messages-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		911AF8B0B39ECB27DC9BF244C3257D00 /* CLLocation+Kinvey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLLocation+Kinvey.h"; path = "KinveyKit-1.40.9/include/KinveyKit/CLLocation+Kinvey.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B25E89B5EBDC03E117DC8451EC91CF /* Pods-Messages-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Messages-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9901FC285E6AFE89382C0B68CD1CCB5B /* KCSAppdataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSAppdataStore.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSAppdataStore.h"; sourceTree = "<group>"; };
+		9BCF47598F845F9CFEF84C810A65E25A /* KinveyVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyVersion.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyVersion.h"; sourceTree = "<group>"; };
+		9DC2E5C14FC7893D669B7B851637F443 /* KinveyDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyDataStore.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyDataStore.h"; sourceTree = "<group>"; };
+		A0BA1F3C576BD658C856B0EAE4377E1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7E85D25467CED5C656C6FC4FEA7ED5F /* KCSAuthCredential.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSAuthCredential.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSAuthCredential.h"; sourceTree = "<group>"; };
+		A8D68BD1151E8A68EBB9F48C1711BE16 /* Pods-Messages-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Messages-iOS-frameworks.sh"; sourceTree = "<group>"; };
+		AB17753E2218E86BA8466FA13AEDEAF1 /* KCSCachedStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSCachedStore.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSCachedStore.h"; sourceTree = "<group>"; };
+		AC5CEBE016FF24B3575A41AE22786014 /* Pods-Messages-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Messages-iOS-dummy.m"; sourceTree = "<group>"; };
+		B1AD4219E2018F6D8C0A29F18D792A8F /* KinveyPing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyPing.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyPing.h"; sourceTree = "<group>"; };
+		BEC2E16CA8053BC908EE83600C8A8253 /* KCSRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSRequest.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSRequest.h"; sourceTree = "<group>"; };
+		BFAF48CA83F0A0DEC50DBCDFBC30084C /* KCSDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSDataStore.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSDataStore.h"; sourceTree = "<group>"; };
+		C07A708FCA97BFF1C784587CD3CE8B2A /* KCSFileStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSFileStore.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSFileStore.h"; sourceTree = "<group>"; };
+		C757CF49D30BCA8DBEDB151AE0D1A09E /* Pods-Messages-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Messages-iOS-umbrella.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEFE9ACD9714C05C3E84C3387534C259 /* Pods-Messages-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Messages-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		D18520F097369CDE34E5114E0505BE5E /* KinveyKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyKit.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyKit.h"; sourceTree = "<group>"; };
+		D53E3454E028D60EAA68495515603CE4 /* KCSLinkedAppdataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSLinkedAppdataStore.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSLinkedAppdataStore.h"; sourceTree = "<group>"; };
+		D6A28E3A3671E266632C2AB7A051136F /* KinveyLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyLocation.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyLocation.h"; sourceTree = "<group>"; };
+		D8C72AF5F7C5A435426FFF73EF095080 /* KinveyKitExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyKitExtras.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyKitExtras.h"; sourceTree = "<group>"; };
+		DDFDDC6D471C7DB18CA2BC83A1A89822 /* KCSClientConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSClientConfiguration.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSClientConfiguration.h"; sourceTree = "<group>"; };
+		DF19AC018EFC8D41A4049E6FAB21E9E4 /* KCSPing2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSPing2.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSPing2.h"; sourceTree = "<group>"; };
+		DF80C64FCEEB6B2811C501F53AD30085 /* KCSCustomEndpoints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSCustomEndpoints.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSCustomEndpoints.h"; sourceTree = "<group>"; };
+		E49E4EAE85C2D520FD911CC31CC15E9A /* libKinveyKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libKinveyKit.a; path = "KinveyKit-1.40.9/libKinveyKit.a"; sourceTree = "<group>"; };
+		E4B7D01DB19D57469E1FBB94A74EF7F9 /* KCSUserDiscovery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSUserDiscovery.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSUserDiscovery.h"; sourceTree = "<group>"; };
+		EF7957AD117AD79431A942BF4623168B /* KinveyFileStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyFileStore.h; path = "KinveyKit-1.40.9/include/KinveyKit/KinveyFileStore.h"; sourceTree = "<group>"; };
+		F5FED70F7FFA9A5AA50F4767D4803AAC /* KCSUser+SocialExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KCSUser+SocialExtras.h"; path = "KinveyKit-1.40.9/include/KinveyKit/KCSUser+SocialExtras.h"; sourceTree = "<group>"; };
+		F84E1D4C34F4C3AD20DA6DEEF5DA2D98 /* KCSEntityDict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSEntityDict.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSEntityDict.h"; sourceTree = "<group>"; };
+		FA2E4F809536E2309E4F9BD44C6C53C0 /* KCSMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSMetadata.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSMetadata.h"; sourceTree = "<group>"; };
+		FBA63A87B20C51408F511369FB632E32 /* KCSStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSStore.h; path = "KinveyKit-1.40.9/include/KinveyKit/KCSStore.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		684C839F1971A217011C08853728739E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03F2FF2DD3764E96DE30BB37B050903 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2058E6BFFD347C8E6A85CE4D64766039 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E49E4EAE85C2D520FD911CC31CC15E9A /* libKinveyKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		249516939F81E7F801870ACD8D286D6C /* KinveyKit */ = {
+			isa = PBXGroup;
+			children = (
+				911AF8B0B39ECB27DC9BF244C3257D00 /* CLLocation+Kinvey.h */,
+				9901FC285E6AFE89382C0B68CD1CCB5B /* KCSAppdataStore.h */,
+				A7E85D25467CED5C656C6FC4FEA7ED5F /* KCSAuthCredential.h */,
+				899128D89FA40C088D166DEC6F46A57E /* KCSBackgroundAppdataStore.h */,
+				1966195277F1F0DAE98C05D184F5A105 /* KCSBase64.h */,
+				736D4A83D5AAFCB8B73A7719137F5236 /* KCSBlockDefs.h */,
+				AB17753E2218E86BA8466FA13AEDEAF1 /* KCSCachedStore.h */,
+				474FD215C869370CFAFD0CCE00EB86B4 /* KCSCacheUpdatePolicy.h */,
+				1B214CE748D5C85BDB39CA5B0092F7E3 /* KCSClient.h */,
+				12B6E79AA68D1A4A500FD3488E0D63CF /* KCSClient+KinveyDataStore.h */,
+				0808EDDE3182A4C8A95A27915BA0BADB /* KCSClient2.h */,
+				DDFDDC6D471C7DB18CA2BC83A1A89822 /* KCSClientConfiguration.h */,
+				DF80C64FCEEB6B2811C501F53AD30085 /* KCSCustomEndpoints.h */,
+				BFAF48CA83F0A0DEC50DBCDFBC30084C /* KCSDataStore.h */,
+				F84E1D4C34F4C3AD20DA6DEEF5DA2D98 /* KCSEntityDict.h */,
+				5928B536365DDC37BA1415DCC93E12BC /* KCSFacebookHelper.h */,
+				4074633B95B7189E7D64BD23A4345D4B /* KCSFile.h */,
+				C07A708FCA97BFF1C784587CD3CE8B2A /* KCSFileStore.h */,
+				65A35B2F0F3FCFC8152E7B195B000E10 /* KCSGroup.h */,
+				D53E3454E028D60EAA68495515603CE4 /* KCSLinkedAppdataStore.h */,
+				2C8528098A71FB3EEF302958BE81CC8B /* KCSLogSink.h */,
+				FA2E4F809536E2309E4F9BD44C6C53C0 /* KCSMetadata.h */,
+				0C04FD6D10A6C320A626346158A70E0A /* KCSOfflineUpdateDelegate.h */,
+				DF19AC018EFC8D41A4049E6FAB21E9E4 /* KCSPing2.h */,
+				529F3800DEC5EA9499498107A01A4662 /* KCSPush.h */,
+				2317674B5155B4C2FA64C35CFB16D43A /* KCSPush2.h */,
+				68E37E407A83C47AEA144A106DEE8DD5 /* KCSQuery.h */,
+				20D42787356BA97908C7F10BF068E292 /* KCSQuery2.h */,
+				4803E8A3EC481ABC0387777D11BC9E16 /* KCSReachability.h */,
+				44A236AF88DF0D721FC713DD4A494BC3 /* KCSReduceFunction.h */,
+				BEC2E16CA8053BC908EE83600C8A8253 /* KCSRequest.h */,
+				7C7C5164BA9B5E790FF7F8219A98027B /* KCSRequestConfiguration.h */,
+				FBA63A87B20C51408F511369FB632E32 /* KCSStore.h */,
+				22B108666082267F8A6F3BF11E36E2F3 /* KCSURLProtocol.h */,
+				F5FED70F7FFA9A5AA50F4767D4803AAC /* KCSUser+SocialExtras.h */,
+				7F2B15F30C20B93D3ABEB04C13473CAF /* KCSUser2.h */,
+				7E015C571AEAEACC1574A8F5E4B22127 /* KCSUser2+KinveyUserService.h */,
+				6B568F5821669777A18798A46E77EB12 /* KCSUserActionResult.h */,
+				E4B7D01DB19D57469E1FBB94A74EF7F9 /* KCSUserDiscovery.h */,
+				63699BB2A639112EEE2996BD193CBB3F /* KCSWebView.h */,
+				1E178A7CBD3DF66F54D2D7B22701670D /* KinveyBlocks.h */,
+				378079F5AFC42AEA2EF12C1B021F8CBD /* KinveyCollection.h */,
+				13BD1047A33662174F8B973E01D46949 /* KinveyCore.h */,
+				9DC2E5C14FC7893D669B7B851637F443 /* KinveyDataStore.h */,
+				50619B3682FD4559B04F7153D1AECC20 /* KinveyEntity.h */,
+				24181E205026EAD01FB072C31AC2B46C /* KinveyErrorCodes.h */,
+				EF7957AD117AD79431A942BF4623168B /* KinveyFileStore.h */,
+				4FF1174A53BB14E746A8755B37849FB6 /* KinveyHeaderInfo.h */,
+				D18520F097369CDE34E5114E0505BE5E /* KinveyKit.h */,
+				3C6D6BAA726E247B8261F2EF81277668 /* KinveyKit2.h */,
+				D8C72AF5F7C5A435426FFF73EF095080 /* KinveyKitExtras.h */,
+				D6A28E3A3671E266632C2AB7A051136F /* KinveyLocation.h */,
+				6DB0E758934895A08DC8B3B855286EE6 /* KinveyPersistable.h */,
+				B1AD4219E2018F6D8C0A29F18D792A8F /* KinveyPing.h */,
+				6372D7A684D075A9FFA855D27FDED703 /* KinveyUser.h */,
+				1C2AF902EDC61FCF24146F492D045C43 /* KinveyUserService.h */,
+				9BCF47598F845F9CFEF84C810A65E25A /* KinveyVersion.h */,
+				1ADBDB1C327F77578235682023785A9D /* NSString+KinveyAdditions.h */,
+				5B4A4AA001573B125439823177C07034 /* NSURL+KinveyAdditions.h */,
+				2058E6BFFD347C8E6A85CE4D64766039 /* Frameworks */,
+			);
+			path = KinveyKit;
+			sourceTree = "<group>";
+		};
+		2DA06B1FFBF6C197082D7783D544F18F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				249516939F81E7F801870ACD8D286D6C /* KinveyKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A737888D0F16416153C44D8BAF5B1F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				670505AE2556F0953FDF1FB214852149 /* Pods_Messages_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2DA06B1FFBF6C197082D7783D544F18F /* Pods */,
+				7A737888D0F16416153C44D8BAF5B1F0 /* Products */,
+				9A5BDAE3902E65C636E3DF45A2372B66 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A5BDAE3902E65C636E3DF45A2372B66 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A62EDACE0D1460E58D52F61AFFFFF4DC /* Pods-Messages-iOS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A62EDACE0D1460E58D52F61AFFFFF4DC /* Pods-Messages-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A0BA1F3C576BD658C856B0EAE4377E1E /* Info.plist */,
+				57EFB496BA6F9754587D763AC6619363 /* Pods-Messages-iOS.modulemap */,
+				43BFC0A6D418D10F463D968F87198CF2 /* Pods-Messages-iOS-acknowledgements.markdown */,
+				8FBE28C60D596BA38808F0E1A32D64AD /* Pods-Messages-iOS-acknowledgements.plist */,
+				AC5CEBE016FF24B3575A41AE22786014 /* Pods-Messages-iOS-dummy.m */,
+				A8D68BD1151E8A68EBB9F48C1711BE16 /* Pods-Messages-iOS-frameworks.sh */,
+				58D673BC1E71C38CDFA6FEDEC42C5EEA /* Pods-Messages-iOS-resources.sh */,
+				C757CF49D30BCA8DBEDB151AE0D1A09E /* Pods-Messages-iOS-umbrella.h */,
+				93B25E89B5EBDC03E117DC8451EC91CF /* Pods-Messages-iOS.debug.xcconfig */,
+				CEFE9ACD9714C05C3E84C3387534C259 /* Pods-Messages-iOS.release.xcconfig */,
+			);
+			name = "Pods-Messages-iOS";
+			path = "Target Support Files/Pods-Messages-iOS";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		171DCE3730264FC5E8B90CE1C63783B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D2F00B3F227FC6D5DAFAAEB209D7A74 /* Pods-Messages-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A83CD34F7D7423715A03E45DA7B70691 /* Pods-Messages-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E262699C1254F7B7CF2921DA1335BA9D /* Build configuration list for PBXNativeTarget "Pods-Messages-iOS" */;
+			buildPhases = (
+				24793A79B01A05DC01C4D2513B9B64C8 /* Sources */,
+				684C839F1971A217011C08853728739E /* Frameworks */,
+				171DCE3730264FC5E8B90CE1C63783B8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Messages-iOS";
+			productName = "Pods-Messages-iOS";
+			productReference = 670505AE2556F0953FDF1FB214852149 /* Pods_Messages_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7A737888D0F16416153C44D8BAF5B1F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A83CD34F7D7423715A03E45DA7B70691 /* Pods-Messages-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24793A79B01A05DC01C4D2513B9B64C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D175D67D248A9B5D42300482689A7CF2 /* Pods-Messages-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A9AA4A232722C824F190B36521D9B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFE9ACD9714C05C3E84C3387534C259 /* Pods-Messages-iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Messages-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Messages-iOS/Pods-Messages-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Messages_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6E67DDBD7D2DC4156E146A60EE9C5591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93B25E89B5EBDC03E117DC8451EC91CF /* Pods-Messages-iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Messages-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Messages-iOS/Pods-Messages-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Messages_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E262699C1254F7B7CF2921DA1335BA9D /* Build configuration list for PBXNativeTarget "Pods-Messages-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E67DDBD7D2DC4156E146A60EE9C5591 /* Debug */,
+				3A9AA4A232722C824F190B36521D9B96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
