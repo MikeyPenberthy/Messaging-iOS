@@ -14,6 +14,9 @@
 		A14D149C1D6C0B2D000268F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14D149A1D6C0B2D000268F0 /* LaunchScreen.storyboard */; };
 		A14D14A71D6C0B2D000268F0 /* Messages_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D14A61D6C0B2D000268F0 /* Messages_iOSTests.swift */; };
 		A14D14B21D6C0B2D000268F0 /* Messages_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D14B11D6C0B2D000268F0 /* Messages_iOSUITests.swift */; };
+		A1C6D6EF1D752E5000107BE0 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C6D6EE1D752E5000107BE0 /* Messages.swift */; };
+		A1C8460B1D74F43B00511E0D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1C8460A1D74F43B00511E0D /* GoogleService-Info.plist */; };
+		A1C8460F1D7501A200511E0D /* ChatHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C8460E1D7501A200511E0D /* ChatHistoryViewController.swift */; };
 		C4DEDBA463973564B0D3FC63 /* Pods_Messages_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C67F0F5CB7FD93E550E31C /* Pods_Messages_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +53,9 @@
 		A14D14AD1D6C0B2D000268F0 /* Messages-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messages-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14D14B11D6C0B2D000268F0 /* Messages_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages_iOSUITests.swift; sourceTree = "<group>"; };
 		A14D14B31D6C0B2D000268F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A14D14BF1D6C0C39000268F0 /* Messages-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Messages-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		A1C6D6EE1D752E5000107BE0 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		A1C8460A1D74F43B00511E0D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A1C8460E1D7501A200511E0D /* ChatHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatHistoryViewController.swift; sourceTree = "<group>"; };
 		E8DB0923E731C3C04E6864CC /* Pods-Messages-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messages-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Messages-iOS/Pods-Messages-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,8 +132,10 @@
 				A14D14951D6C0B2D000268F0 /* Main.storyboard */,
 				A14D14981D6C0B2D000268F0 /* Assets.xcassets */,
 				A14D149A1D6C0B2D000268F0 /* LaunchScreen.storyboard */,
+				A1C8460A1D74F43B00511E0D /* GoogleService-Info.plist */,
 				A14D149D1D6C0B2D000268F0 /* Info.plist */,
-				A14D14BF1D6C0C39000268F0 /* Messages-iOS-Bridging-Header.h */,
+				A1C8460E1D7501A200511E0D /* ChatHistoryViewController.swift */,
+				A1C6D6EE1D752E5000107BE0 /* Messages.swift */,
 			);
 			path = "Messages-iOS";
 			sourceTree = "<group>";
@@ -222,6 +229,7 @@
 				TargetAttributes = {
 					A14D148D1D6C0B2D000268F0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 59R95578P7;
 					};
 					A14D14A11D6C0B2D000268F0 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -259,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A14D149C1D6C0B2D000268F0 /* LaunchScreen.storyboard in Resources */,
+				A1C8460B1D74F43B00511E0D /* GoogleService-Info.plist in Resources */,
 				A14D14991D6C0B2D000268F0 /* Assets.xcassets in Resources */,
 				A14D14971D6C0B2D000268F0 /* Main.storyboard in Resources */,
 			);
@@ -334,6 +343,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A14D14941D6C0B2D000268F0 /* ViewController.swift in Sources */,
+				A1C6D6EF1D752E5000107BE0 /* Messages.swift in Sources */,
+				A1C8460F1D7501A200511E0D /* ChatHistoryViewController.swift in Sources */,
 				A14D14921D6C0B2D000268F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,11 +491,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Messages-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mpenberthy.Messages-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Messages-iOS/Messages-iOS-Bridging-Header.h";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -495,11 +508,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Messages-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mpenberthy.Messages-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Messages-iOS/Messages-iOS-Bridging-Header.h";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
