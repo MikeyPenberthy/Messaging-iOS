@@ -17,16 +17,21 @@ class ChatViewController: JSQMessagesViewController {
     
     let fakeUser1 = "IogQTXFINIWDwEVjNAc2YTtsnVk2"
     let fakeUser2 = "qE0yw0QDUUfi9bsvBF7s5daZuaT2"
-    
+    let imageURL = NSURL(string: "http://1.bp.blogspot.com/-KuFrhzsc2TE/U-STcx4dZGI/AAAAAAAAKWQ/rngsW25GXwk/s1600/Hot+Selfie+Ideas+and+Photo+(7).jpg")
+    var ava: UIImage?
     // sets chat bubble colors
     let incomingBubble = JSQMessagesBubbleImageFactory().incomingMessagesBubbleImageWithColor(UIColor(red: 10/255, green: 180/255, blue: 230/255, alpha: 1.0))
     let outgoingBubble = JSQMessagesBubbleImageFactory().outgoingMessagesBubbleImageWithColor(UIColor.lightGrayColor())
+    
+    
     var messages = [JSQMessage]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.getAvatarImage()
         self.setup()
         self.addMessages()
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -63,7 +68,7 @@ extension ChatViewController {
         self.senderId = UIDevice.currentDevice().identifierForVendor?.UUIDString
         self.senderDisplayName = UIDevice.currentDevice().identifierForVendor?.UUIDString
         self.title = toUser
-        
+        self.inputToolbar.contentView.leftBarButtonItem = nil
         let ref = FIRDatabase.database().reference()
             .child(currentUser).child("matches").child(toUser).child("messages")
         
@@ -76,6 +81,21 @@ extension ChatViewController {
             self.serverMessages.append(m)
             self.addMessages()
             }, withCancelBlock: nil)
+    }
+    
+    func getAvatarImage(){
+        if let imageURL = imageURL {
+            NSURLSession.sharedSession().dataTaskWithURL(imageURL, completionHandler :{(data,responce, error) in
+                if let data = data {
+                    self.ava = UIImage(data:data)
+                }
+                dispatch_async(dispatch_get_main_queue(), {
+                self.reloadMessagesView()
+                })
+                
+            }).resume()
+            
+        }
     }
     
 }
@@ -107,8 +127,13 @@ extension ChatViewController {
     }
     
     override func collectionView(collectionView: JSQMessagesCollectionView!, avatarImageDataForItemAtIndexPath indexPath: NSIndexPath!) -> JSQMessageAvatarImageDataSource! {
-        return nil
+        if ava == nil {
+            return nil
+        } else {
+            return JSQMessagesAvatarImageFactory.avatarImageWithPlaceholder(ava , diameter: UInt(kJSQMessagesCollectionViewAvatarSizeDefault))
+        }
     }
+    
 }
 
 //MARK - Toolbar
