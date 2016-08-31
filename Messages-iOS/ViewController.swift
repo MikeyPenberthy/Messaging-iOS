@@ -9,6 +9,7 @@
 import UIKit
 import FBSDKLoginKit
 import Firebase
+import JSQMessagesViewController
 
 class ViewController: UIViewController, FBSDKLoginButtonDelegate {
     
@@ -26,6 +27,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         FIRAuth.auth()?.addAuthStateDidChangeListener { auth, user in
             if user != nil {
                 // User is signed in.
+                
                 self.performSegueWithIdentifier("homeSegue", sender: self)
             } else {
                 self.view.addSubview(self.loginButton)
@@ -58,7 +60,6 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
     func loginButtonDidLogOut(loginButton: FBSDKLoginButton!) {
         print("Logged out")
     }
-    
     
     
     

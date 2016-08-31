@@ -18,14 +18,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="9M0-KH-ybQ"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <segue destination="GBV-sj-su1" kind="presentation" identifier="homeSegue" id="mhh-Rr-Sao"/>
+                        <segue destination="K4v-wo-e7l" kind="presentation" identifier="homeSegue" id="1Nx-8T-hlN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="125" y="315"/>
+            <point key="canvasLocation" x="937" y="315"/>
+        </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="JhQ-Fd-0nm">
+            <objects>
+                <viewController id="n5f-Nr-3dE" customClass="ChatViewController" customModule="Messages_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6lP-Rw-xFW"/>
+                        <viewControllerLayoutGuide type="bottom" id="M49-9K-Sk1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8JA-SS-obI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iuP-ik-TX8"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oMH-ZP-Noh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1563" y="1228"/>
         </scene>
         <!--Chat History View Controller-->
         <scene sceneID="xXI-sv-RYX">
@@ -125,7 +146,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gnM-zs-zUU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="652" y="315"/>
+            <point key="canvasLocation" x="1464" y="315"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xil-Mt-QMm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="K4v-wo-e7l" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IoB-Uk-pUP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="n5f-Nr-3dE" kind="relationship" relationship="rootViewController" id="t6p-16-bZm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2oi-zz-2nz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="937" y="1228"/>
         </scene>
     </scenes>
 </document>

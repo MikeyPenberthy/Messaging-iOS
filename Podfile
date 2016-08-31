@@ -7,5 +7,5 @@ target 'Messages-iOS' do
  	pod 'Firebase/Database'
 	pod 'FacebookCore'
   	pod 'FacebookLogin'
-	pod 'KinveyKit'
+	pod 'JSQMessagesViewController'
 end
